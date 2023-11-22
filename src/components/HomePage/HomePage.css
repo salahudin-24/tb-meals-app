@@ -1,0 +1,69 @@
+.home {
+    width: auto;
+    height: 150%;
+    margin-bottom: 5rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.home-meals {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.home-meals .card {
+    width: 175px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: black;
+    padding: 7px;
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border-radius: 20px;
+    background: black;
+    box-shadow: 5px 5px 19px #8b8b8b, -5px -5px 19px #8b8b8b;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.home-search {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    margin: 1rem 0;
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    background-color: white;
+}
+
+.search-btn {
+    margin-left: 1rem;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(243, 29, 90);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}

@@ -1,0 +1,60 @@
+.category-item {
+    width: auto;
+    height: 150%;
+    margin-bottom: 5rem;
+}
+
+.category-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-text h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: auto;
+    margin-top: 1rem;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 1rem;
+    background: #040101;
+    box-shadow: 5px 5px 19px #8b8b8b, -5px -5px 19px #8b8b8b;
+}
+
+.card {
+    width: 175px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    background-color: black;
+    padding: 7px;
+    border-radius: 20px;
+    background: #040101;
+    box-shadow: 5px 5px 19px #8b8b8b, -5px -5px 19px #8b8b8b;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.category-meals {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}

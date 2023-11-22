@@ -1,0 +1,27 @@
+.category {
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.category div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.category img {
+    width: 150px;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    transition: all 0.4s ease;
+}
+
+.category img:hover {
+    transform: scale(1.1);
+}

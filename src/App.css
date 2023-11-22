@@ -1,0 +1,82 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(35, 35, 60);
+}
+
+#titleGroup {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(10px) saturate(130%);
+  -webkit-backdrop-filter: blur(10px) saturate(130%);
+  background-color: rgba(17, 25, 40, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 1px solid white;
+  border-width: 2px;
+}
+
+.iconWrapper {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: Verdana;
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+
+
+.icon {
+  color: white;
+  margin-bottom: 4px;
+  font-size: 25px;
+}
+
+.iconLogout {
+  color: red;
+  margin-bottom: 4px;
+  font-size: 25px;
+}
+
+
+.active {
+  color: rgb(243, 29, 90);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(243, 29, 90);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(243, 29, 90);
+}
+
+::-webkit-scrollbar-track {
+  background: #24233b;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+
+.recipe {
+    margin-bottom: 5rem;
+}
+
+.recipe-content {
+    margin-bottom: 5rem;
+}
+
+.recipe-content img {
+    width: 100%;
+    height: 600px;
+    border-radius: 0%;
+}
+
+.recipe-content .inner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 25px 25px 50px rgb(35, 35, 60),
+                -25px -25px 50px rgb(35, 35, 60);
+}
+
+.recipe-detail {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients,
+.instruction {
+    color: white;
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.ingredients h4 {
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+iframe {
+    height: 515px;
+    width: 100%;
+}
+
+.video {
+    width: 80%;
+    margin: 3rem auto;
+}
