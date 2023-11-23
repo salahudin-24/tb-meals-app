@@ -23,14 +23,14 @@ export const Context = ({ children }) => {
 
 
     const fetchRecipe = useCallback((MealId) => {
-        if (MealId !== ""){
-           axios
-            .get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
-            .then((res) => {
-                console.log(res.data.meals[0]);
-                setRecipe(res.data.meals);
-                setUrl(res.data.meals[0].strYoutube);
-            }) 
+        if (MealId !== "") {
+            axios
+                .get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
+                .then((res) => {
+                    console.log(res.data.meals[0]);
+                    setRecipe(res.data.meals);
+                    setUrl(res.data.meals[0].strYoutube);
+                })
         }
     }, [])
 
@@ -63,6 +63,8 @@ export const Context = ({ children }) => {
                 setRandomMeal(res.data.meals);
             })
     }, [])
+
+
 
 
     return (
